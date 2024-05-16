@@ -1,0 +1,48 @@
+:root{
+    --font:'Poppins';
+    --pink:#d7205b;
+    --sky:#82afca;
+}
+
+
+.ff{
+    font-family: var(--font);
+}
+
+/* header */
+.dropdown-menu li a{
+    font-size: 20px;
+    font-family: var(--font);
+}
+.off{
+    transition: all 0.2s linear;
+    font-family: var(--font);
+    font-weight: 600;
+}
+.off:hover{
+    background-color: white !important;
+    color: black !important;
+}
+/* blogs */
+.blogs-heading h2{
+    font-size: 60px ;
+    font-family: var(--font);
+}
+.card-body .it{
+    color: var(--pink);
+    font-family: var(--font);
+    font-size: 12px;
+}
+.card-body h3{
+    color: var(--sky);
+    font-family: var(--font);
+    line-height: 1.9;
+    font-family: 35px;
+}
+.btn{
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    background-color: black !important ;
+    color: white !important;
+}
